@@ -246,9 +246,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s() {
- 
+  // if (array[number].years === '1901' || array[number].years < '2000') {
+  //   return array.split();
+  // }
 }
 
+console.log(get20s(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
@@ -303,7 +306,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array) {
   for (let i = 0; i < array; i++) {
-    if (array.paintings > 100) {
+    if (array > 100) {
       return artists.name;
     } 
   }
